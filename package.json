@@ -1,0 +1,12 @@
+{
+  "name": "js-build-book-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sadnessOjisan/js-build-book-code.git",
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "chap2a"
+  ]
+}
