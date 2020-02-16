@@ -1,6 +1,13 @@
-# preset env を入れてみる
+# 比較的デフォルトな browserslist
 
-browserlist は適用しない
+browserslist を適用
+
+```
+> 0.25%
+not dead
+```
+
+babel でコンパイル
 
 ```
 $ yarn babel src/main.js --out-dir dist
