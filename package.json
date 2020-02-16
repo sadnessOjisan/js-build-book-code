@@ -7,6 +7,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "chap2a"
+    "chap2a",
+    "chap2b",
+    "chap2c",
+    "chap2d",
+    "chap2e",
+    "chap2f"
   ]
 }
