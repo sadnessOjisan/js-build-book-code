@@ -1,0 +1,10 @@
+{
+  "name": "chap2g",
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
