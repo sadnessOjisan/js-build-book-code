@@ -1,0 +1,7 @@
+{
+  "name": "chap3c",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
