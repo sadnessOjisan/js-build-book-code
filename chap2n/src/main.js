@@ -1,5 +1,7 @@
 class Hoge {
-  constructor() {}
+  constructor() {
+    window.location.href;
+  }
 }
 
 new Hoge();

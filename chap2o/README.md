@@ -22,7 +22,10 @@ warning package.json: No license field
 $ /js-build-book-code/node_modules/.bin/eslint src/main.js
 
 /js-build-book-code/chap2o/src/main.js
-  3:21  error  Strings must use doublequote  quotes
+  1:20  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  2:11  error  Missing semicolon                                                                                      semi
+  3:2   error  Missing semicolon                                                                                      semi
+  5:7   error  Missing semicolon                                                                                      semi
 
 ✖ 1 problem (1 error, 0 warnings)
   1 error and 0 warnings potentially fixable with the `--fix` option.
@@ -46,13 +49,11 @@ $ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/.bin/eslin
 ダブルクオートになる
 
 ```
-class Hoge {
-    constructor() {
-        console.log("hello")
-    }
+const hoge = () => {
+  return 2
 }
 
-new Hoge()
+hoge()
 ```
 
 このようにルールが衝突することがある。

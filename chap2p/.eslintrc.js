@@ -3,5 +3,5 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: ['airbnb-base'],
+  extends: ['airbnb-base', 'prettier'],
 }
