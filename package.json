@@ -7,26 +7,6 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "chap2a",
-    "chap2b",
-    "chap2c",
-    "chap2d",
-    "chap2e",
-    "chap2f",
-    "chap2g",
-    "chap2h",
-    "chap2i",
-    "chap2j",
-    "chap2k",
-    "chap2l",
-    "chap2m",
-    "chap2n",
-    "chap2o",
-    "chap2p",
-    "chap2q",
-    "chap2r",
-    "chap3a",
-    "chap3b",
-    "chap3c"
+    "packages/*"
   ]
 }
