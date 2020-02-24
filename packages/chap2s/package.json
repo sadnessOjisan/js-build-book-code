@@ -1,4 +1,10 @@
 {
   "name": "chap2s",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
 }
