@@ -1,0 +1,10 @@
+{
+  "name": "chap2v",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
