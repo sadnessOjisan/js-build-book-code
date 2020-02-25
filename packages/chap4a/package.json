@@ -1,0 +1,13 @@
+{
+  "name": "chap4a",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.22",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "start": "yarn tsc src/main.tsx --outDir dist --jsx react --lib es2015,dom && cp src/index.html ./dist && open dist/index.html"
+  }
+}
