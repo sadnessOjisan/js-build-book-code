@@ -20,7 +20,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".tsx", ".js"]onSnapshot
+    extensions: [".tsx", ".js"]
   },
   plugins: [
     new HtmlWebpackPlugin({

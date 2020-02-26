@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  mode: "production",
+  mode: "none",
   entry: "./src/main.tsx",
   output: {
     path: path.resolve(__dirname, "./dist"),
@@ -16,11 +16,15 @@ module.exports = {
         use: {
           loader: "ts-loader"
         }
+      },
+      {
+        test: /\.png$/,
+        use: ["file-loader"]
       }
     ]
   },
   resolve: {
-    extensions: [".tsx", ".js"]onSnapshot
+    extensions: [".tsx", ".js", ".png"]
   },
   plugins: [
     new HtmlWebpackPlugin({

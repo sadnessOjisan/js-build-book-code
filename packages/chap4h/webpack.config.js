@@ -16,11 +16,15 @@ module.exports = {
         use: {
           loader: "ts-loader"
         }
+      },
+      {
+        test: /\.png$/,
+        use: ["url-loader"]
       }
     ]
   },
   resolve: {
-    extensions: [".tsx", ".js"]onSnapshot
+    extensions: [".tsx", ".js", ".png"]
   },
   plugins: [
     new HtmlWebpackPlugin({
