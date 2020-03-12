@@ -1,6 +1,6 @@
 # 比較的デフォルトな browserslist
 
-browserslist を適用
+browserslist を適用します。どのバージョンに適応させるかを指定できます。
 
 ```
 > 0.25%

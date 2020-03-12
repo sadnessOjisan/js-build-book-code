@@ -38,7 +38,7 @@ yarn run v1.21.1
 warning package.json: No license field
 $ /js-build-book-code/node_modules/.bin/eslint src/main.js
 
-/Users/ojisan/Documents/100_project/js-build-book-code/chap2l/src/main.js
+/js-build-book-code/chap2l/src/main.js
   1:7  error  'Hoge' is defined but never used  no-unused-vars
 
 ✖ 1 problem (1 error, 0 warnings)

@@ -1,6 +1,6 @@
 # 最新の chrome だけをサポートする browserslist
 
-browserslist を適用
+最新の chrome をターゲントにするように browserslist を更新して実行します。
 
 ```
 chrome 80

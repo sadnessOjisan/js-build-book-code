@@ -42,7 +42,7 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 ❯ yarn eslint src/main.js --fix
 yarn run v1.19.1
 warning package.json: No license field
-$ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/.bin/eslint src/main.js --fix
+$ /js-build-book-code/node_modules/.bin/eslint src/main.js --fix
 ✨  Done in 0.43s.
 ```
 

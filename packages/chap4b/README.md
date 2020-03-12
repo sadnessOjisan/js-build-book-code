@@ -1,7 +1,9 @@
 # tsc で React をビルドする
 
+CLI オプションを設定ファイルに落とし込む
+
 ```
-yarn tsc src/main.tsx --outDir dist --jsx react --lib es2015,dom --module umd && cp src/index.html ./dist
+yarn tsc
 ```
 
 ```

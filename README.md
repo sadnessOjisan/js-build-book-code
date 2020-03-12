@@ -1,15 +1,13 @@
 # js-build-book-code
 
-js-build-book のコード
+技術書典応援祭で発売した[js-build-book]() のサンプルコードです。
 
-## 各 package の依存を解決
+サンプルコードを monorepo で管理しています。
+
+サンプルを利用する場合は各フォルダに移動して、実行してください。
+
+## 各 package の依存を DL する
 
 ```
 $ yarn install
-```
-
-## 特定のレポジトリに package を追加する
-
-```
-$ yarn workspace <workspace_name> add @babel/core
 ```

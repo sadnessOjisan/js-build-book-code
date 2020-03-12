@@ -1,5 +1,7 @@
 # webpack で tsx
 
+ts-loader を通す
+
 ```
 yarn webpack
 ```
@@ -45,7 +47,7 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 ❯ yarn webpack
 yarn run v1.19.1
 warning package.json: No license field
-$ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/.bin/webpack
+$ /100_project/js-build-book-code/node_modules/.bin/webpack
 Hash: 6d14903fb45cdf3b7f89
 Version: webpack 4.41.6
 Time: 2862ms
@@ -56,19 +58,19 @@ Entrypoint main = bundle.js
     + 6 hidden modules
 
 ERROR in ./src/main.tsx
-Module not found: Error: Can't resolve './sub' in '/Users/ojisan/Documents/100_project/js-build-book-code/packages/chap4d/src'
+Module not found: Error: Can't resolve './sub' in '/100_project/js-build-book-code/packages/chap4d/src'
  @ ./src/main.tsx 5:12-28
 
-ERROR in /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react-dom/cjs/react-dom.production.min.js
-Module not found: Error: Can't resolve 'object-assign' in '/Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react-dom/cjs'
- @ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react-dom/cjs/react-dom.production.min.js 13:39-63
- @ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react-dom/index.js
+ERROR in /100_project/js-build-book-code/node_modules/react-dom/cjs/react-dom.production.min.js
+Module not found: Error: Can't resolve 'object-assign' in '/100_project/js-build-book-code/node_modules/react-dom/cjs'
+ @ /100_project/js-build-book-code/node_modules/react-dom/cjs/react-dom.production.min.js 13:39-63
+ @ /100_project/js-build-book-code/node_modules/react-dom/index.js
  @ ./src/main.tsx
 
-ERROR in /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react/cjs/react.production.min.js
-Module not found: Error: Can't resolve 'object-assign' in '/Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react/cjs'
- @ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react/cjs/react.production.min.js 10:19-43
- @ /Users/ojisan/Documents/100_project/js-build-book-code/node_modules/react/index.js
+ERROR in /100_project/js-build-book-code/node_modules/react/cjs/react.production.min.js
+Module not found: Error: Can't resolve 'object-assign' in '/100_project/js-build-book-code/node_modules/react/cjs'
+ @ /100_project/js-build-book-code/node_modules/react/cjs/react.production.min.js 10:19-43
+ @ /100_project/js-build-book-code/node_modules/react/index.js
  @ ./src/main.tsx
 Child html-webpack-plugin for "index.html":
      1 asset

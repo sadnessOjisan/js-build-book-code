@@ -1,6 +1,6 @@
 # async await を polyfill を含めてトランスパイル
 
-regenerator-runtime も入れてみる
+先の例で必要とされたライブラリのうち、core-js に加え、regenerator-runtime も入れてみると成功する
 
 ```
 ❯ yarn add regenerator-runtime

@@ -1,6 +1,6 @@
 # ESLint + Prettier を利用
 
-plugin:prettier/recommended' を追加して eslint-config-prettier を削除した
+plugin:prettier/recommended' を追加して eslint-config-prettier を削除
 
 ```
 ❯ yarn eslint src/main.js

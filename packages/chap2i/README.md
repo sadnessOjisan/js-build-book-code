@@ -1,6 +1,6 @@
 # async await をトランスパイル（polyfill 指定あるがライブラリがない)
 
-core-js だけ入れてみる
+先の例で必要とされたライブラリのうち、core-js だけ入れてみると失敗する
 
 ```
 $ yarn add core-js@3
@@ -16,12 +16,12 @@ internal/modules/cjs/loader.js:796
 
 Error: Cannot find module 'regenerator-runtime/runtime'
 Require stack:
-- /Users/ojisan/Documents/100_project/js-build-book-code/chap2i/dist/main.js
+- /100_project/js-build-book-code/chap2i/dist/main.js
     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
     at Function.Module._load (internal/modules/cjs/loader.js:686:27)
     at Module.require (internal/modules/cjs/loader.js:848:19)
     at require (internal/modules/cjs/helpers.js:74:18)
-    at Object.<anonymous> (/Users/ojisan/Documents/100_project/js-build-book-code/chap2i/dist/main.js:7:1)
+    at Object.<anonymous> (/100_project/js-build-book-code/chap2i/dist/main.js:7:1)
     at Module._compile (internal/modules/cjs/loader.js:955:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
     at Module.load (internal/modules/cjs/loader.js:811:32)
@@ -29,7 +29,7 @@ Require stack:
     at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10) {
   code: 'MODULE_NOT_FOUND',
   requireStack: [
-    '/Users/ojisan/Documents/100_project/js-build-book-code/chap2i/dist/main.js'
+    '/100_project/js-build-book-code/chap2i/dist/main.js'
   ]
 }
 ```

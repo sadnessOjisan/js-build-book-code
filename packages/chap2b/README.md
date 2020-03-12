@@ -1,5 +1,7 @@
 # @babel/cli でコマンドが実行できる例
 
+cli コマンドを入れると babel コマンドを利用できます。
+
 ```
 $ yarn babel src/main.js --out-dir dist
 ```
