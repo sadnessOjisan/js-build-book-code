@@ -3,3 +3,5 @@
 ```
 yarn webpack
 ```
+
+css 読み込みは raw-loader
