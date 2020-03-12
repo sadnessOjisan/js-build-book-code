@@ -12,3 +12,5 @@ babel でコンパイル
 ```
 $ yarn babel src/main.js --out-dir dist
 ```
+
+クラス構文が変換される

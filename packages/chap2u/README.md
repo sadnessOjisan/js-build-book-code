@@ -1,1 +1,5 @@
 # jest
+
+```
+$ yarn jest
+```

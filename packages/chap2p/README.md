@@ -1,6 +1,6 @@
 # ESLint + Prettier を利用
 
-eslint-config-prettie を追加した
+eslint-config-prettier を追加した
 
 ```
 ❯ yarn eslint src/main.js

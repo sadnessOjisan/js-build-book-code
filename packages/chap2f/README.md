@@ -11,3 +11,5 @@ babel でコンパイル
 ```
 $ yarn babel src/main.js --out-dir dist
 ```
+
+クラス構文がそのまま吐き出される。

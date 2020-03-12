@@ -1,6 +1,6 @@
 # ESLint を利用
 
-global option を確かめる。
+env と global option を確かめる。
 
 `env`を消すと no-undef で怒られる。
 

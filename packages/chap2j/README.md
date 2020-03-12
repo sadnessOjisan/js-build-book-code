@@ -1,4 +1,4 @@
-# async await をトランスパイル（polyfill 指定あるがライブラリがない)
+# async await を polyfill を含めてトランスパイル
 
 regenerator-runtime も入れてみる
 

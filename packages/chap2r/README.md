@@ -1,11 +1,7 @@
-# ESLint + Prettier を利用
+# webpack コマンドを設定ファイルなしで実行
 
-plugin:prettier/recommended' を追加して eslint-config-prettie を削除した
+zero config で実行できる。
 
 ```
-❯ yarn eslint src/main.js
-yarn run v1.19.1
-warning package.json: No license field
-$ js-build-book-code/node_modules/.bin/eslint src/main.js
-✨  Done in 0.78s.
+❯ yarn webpack
 ```

@@ -1,5 +1,7 @@
 # babel-loader を webpack で使う
 
+babel-loader 下で preset-env, browserslist はどう扱われるか実験。
+
 preset-env がないとき
 
 ```js
