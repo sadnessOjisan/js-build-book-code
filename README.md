@@ -21,7 +21,8 @@ $ yarn install
 
 * babel-cli を使わずにトランスパイル
 * @babel/preset-env を使わずにトランスパイル
-* ESLint の plugin と extends の役割の違い、またはその例外について • eslint-config-prettier と eslint-plugin-prettier の違い
+* ESLint の plugin と extends の役割の違い、またはその例外について 
+* eslint-config-prettier と eslint-plugin-prettier の違い
 * css-loader を使わずに style-loader だけを使う
 * dotenv-webpack と DefinePlugin の違い
 * @testing-library/react と@testing-library/jest-dom の役割の違い
@@ -39,7 +40,9 @@ $ yarn install
 
 * Babel
 * ESLint
-* Prettier • Webpack • Jest
+* Prettier 
+* Webpack 
+* Jest
 
 第 2 章では、
 * TypeScript • ESLint
@@ -66,8 +69,6 @@ GitHub: https://github.com/sadnessOjisan/js-build-book-code
 * yarn: 1.19.0
  
 といった環境で動作させています。
-– ii –
-
 
 ### サポートページについて
 本書の誤字脱字や内容の修正はサポートページで行います。適宜更新があった場合も サポートページ内で告知します。また、質問は Twitter の DM などでいつでも受け付けています。気軽に連絡ください。
